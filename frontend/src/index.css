@@ -1,0 +1,12 @@
+@import './styles/global.css';
+@import './styles/components/navbar.css';
+@import './styles/components/auth.css';
+@import './styles/components/post.css';
+@import './styles/components/home.css';
+@import './styles/components/profile.css';
+@import './styles/components/search.css';
+@import './styles/components/notifications.css';
+@import './styles/components/design-system.css';
+@import './styles/components/messages.css';
+@import './styles/components/skeleton.css';
+@import './styles/responsive.css';

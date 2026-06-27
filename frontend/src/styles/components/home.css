@@ -1,0 +1,50 @@
+.home-page {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.home-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn-load-more {
+  width: 100%;
+  padding: 12px;
+  background: var(--bg-surface);
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-load-more:hover {
+  background: var(--bg-hover);
+}
+
+.btn-load-more:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.feed-end {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 300;
+  padding: 16px 0;
+}
+
+.feed-empty {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 32px 0;
+}
